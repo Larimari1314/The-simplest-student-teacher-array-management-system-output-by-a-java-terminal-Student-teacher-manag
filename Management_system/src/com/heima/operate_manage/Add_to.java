@@ -19,14 +19,17 @@ public class Add_to {
             int age = sc.nextInt();
             System.out.println("请输入生日：");
             String brithday = sc.next();
-            Storage_class[] newlist = new Storage_class[list.length + 1];
-            for (int i = 0; i < newlist.length; i++) {
+            Storage_class[] newlist = new Storage_class[list.length+1];
+            for (int i = 0; i < list.length; i++) {
                 newlist[i] = list[i];
             }
-            newlist[list.length + 1].setID(ID);
-            newlist[list.length + 1].setName(name);
-            newlist[list.length + 1].setAge(age);
-            newlist[list.length + 1].setBrithday(brithday);
+            Storage_class stu=new Storage_class();
+            stu.setID(ID);
+            stu.setName(name);
+            stu.setAge(age);
+            stu.setBrithday(brithday);
+            newlist[list.length]=stu;
+            System.out.println("恭喜您添加成功！！");
             return newlist;
         }
     }

@@ -15,35 +15,45 @@ public class customer_service {
                 case 1:
                     switch (front_page.Student_page()) {
                         case 1:
-                            Add_to.Add_all(Student);
+                            Student= Add_to.Add_all(Student);
+                            break;
                         case 2:
-                            delete.delete_all(Student);
+                            Student=delete.delete_all(Student);
+                            break;
                         case 3:
-                            Check_all.newcheck_all(Student);
+                            Student=Check_all.newcheck_all(Student);
+                            break;
                         case 4:
                             view_all.view_alls(Student);
+                            break;
                         case 5:
+                            System.out.println("感谢您对学生管理系统的使用，再见！");
                             break;
                         default:
                             System.out.println("请按照提示输入信息！！！");
                     }
-
+                    break;
                 case 2:
                     switch (front_page.Teacher_page()) {
                         case 1:
-                            Add_to.Add_all(Teacher);
+                            Teacher=Add_to.Add_all(Teacher);
+                            break;
                         case 2:
-                            delete.delete_all(Teacher);
+                            Teacher=delete.delete_all(Teacher);
+                            break;
                         case 3:
-                            Check_all.newcheck_all(Teacher);
+                            Teacher=Check_all.newcheck_all(Teacher);
+                            break;
                         case 4:
                             view_all.view_alls(Teacher);
+                            break;
                         case 5:
+                            System.out.println("感谢您对教师管理系统的使用，再见！");
                             break;
                         default:
                             System.out.println("请按照提示输入信息！！！");
                     }
-
+                    break;
                 case 3:
                     System.exit(0);
                 default:
