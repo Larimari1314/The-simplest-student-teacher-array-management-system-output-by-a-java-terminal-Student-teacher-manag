@@ -14,7 +14,7 @@ public class delete {
             System.out.println("请输入你删除的id：");
             Scanner sc = new Scanner(System.in);
             int a=compare.compare_id(sc.nextInt(), list);
-            if (a == 0) {
+            if (a == -1) {
                 System.out.println("您查找的ID不存在请检查输入后重试！！");
                 return list;
             } else {
@@ -27,6 +27,7 @@ public class delete {
                         newlist[i]=list[i+1];
                     }
                 }
+                System.out.println("删除成功!");
                 return newlist;
             }
         }

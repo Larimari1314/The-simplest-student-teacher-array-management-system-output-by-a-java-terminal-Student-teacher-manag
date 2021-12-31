@@ -14,7 +14,7 @@ public class Check_all {
             Scanner sc = new Scanner(System.in);
             int ID = sc.nextInt();
             int a = compare.compare_id(ID, list);
-            if (a == 0) {
+            if (a == -1) {
                 System.out.println("您输入的ID不存在，请检查后输入！！");
                 return list;
             } else {

@@ -9,7 +9,7 @@ public class Add_to {
         Scanner sc = new Scanner(System.in);
         System.out.println("请输入ID");
         int ID = sc.nextInt();
-        if ((compare.compare_id(ID, list)) != 0) {
+        if ((compare.compare_id(ID, list)) != -1) {
             System.out.println("您输入的ID重复，请重新输入！！！");
             return list;
         } else {
