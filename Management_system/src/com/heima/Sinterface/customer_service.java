@@ -15,13 +15,13 @@ public class customer_service {
                 case 1:
                     switch (front_page.Student_page()) {
                         case 1:
-                            Student= Add_to.Add_all(Student);
+                            Student = Add_to.Add_all(Student);
                             break;
                         case 2:
-                            Student=delete.delete_all(Student);
+                            Student = delete.delete_all(Student);
                             break;
                         case 3:
-                            Student=Check_all.newcheck_all(Student);
+                            Student = Check_all.newcheck_all(Student);
                             break;
                         case 4:
                             view_all.view_alls(Student);
@@ -36,13 +36,13 @@ public class customer_service {
                 case 2:
                     switch (front_page.Teacher_page()) {
                         case 1:
-                            Teacher=Add_to.Add_all(Teacher);
+                            Teacher = Add_to.Add_all(Teacher);
                             break;
                         case 2:
-                            Teacher=delete.delete_all(Teacher);
+                            Teacher = delete.delete_all(Teacher);
                             break;
                         case 3:
-                            Teacher=Check_all.newcheck_all(Teacher);
+                            Teacher = Check_all.newcheck_all(Teacher);
                             break;
                         case 4:
                             view_all.view_alls(Teacher);
