@@ -17,3 +17,6 @@ Create Add_to, Check_all, compare, delete classes in the operate_manage package 
 
 Define compare to compare whether the same student ID exists
 
+
+Run customer_service under Sinterface to run
+
