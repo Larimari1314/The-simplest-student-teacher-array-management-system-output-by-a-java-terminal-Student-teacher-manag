@@ -1,3 +1,4 @@
+The simplest student-teacher array management system output by a java terminal
 Student-teacher management system: There needs to be a student terminal and a teacher terminal, using array storage instead of a collection. The student terminal needs to add, delete and modify the query operation. The teacher terminal needs to be completed with the idea of ​​subcontracting classification
 Operation effect: the menu bar needs to have three columns, the student-side entrance and the teacher-side entrance are required to be deleted
 Students add students, delete students, modify students, view students, exit
